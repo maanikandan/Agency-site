@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - GoHigherOnline</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">GoHigherOnline</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-blue-200">Home</a>
+                <a href="services.html" class="hover:text-blue-200">Services</a>
+                <a href="portfolio.html" class="hover:text-blue-200">Portfolio</a>
+                <a href="about.html" class="hover:text-blue-200">About</a>
+                <a href="contact.html" class="hover:text-blue-200">Contact</a>
+            </div>
+            <button class="md:hidden" id="mobile-menu-button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-16 6h16"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="container mx-auto px-4 py-2">
+                <a href="index.html" class="block py-2">Home</a>
+                <a href="services.html" class="block py-2">Services</a>
+                <a href="portfolio.html" class="block py-2">Portfolio</a>
+                <a href="about.html" class="block py-2">About</a>
+                <a href="contact.html" class="block py-2">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Header -->
+    <header class="bg-blue-700 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">Our Services</h1>
+            <p class="text-xl">Comprehensive digital solutions to help your business grow</p>
+        </div>
+    </header>
+
+    <!-- Detailed Services Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <!-- SEO Service -->
+            <div class="mb-16 service-card p-8 rounded-lg border hover:shadow-xl">
+                <h2 class="text-3xl font-bold mb-6">Search Engine Optimization (SEO)</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="mb-4">Our comprehensive SEO services help your website rank higher in search results, driving more organic traffic and potential customers to your business.</p>
+                        <ul class="list-disc list-inside space-y-2 mb-4">
+                            <li>Keyword Research and Analysis</li>
+                            <li>On-Page SEO Optimization</li>
+                            <li>Technical SEO Improvements</li>
+                            <li>Content Strategy and Creation</li>
+                            <li>Link Building and Outreach</li>
+                            <li>Local SEO Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-4">Why Choose Our SEO Services?</h3>
+                        <ul class="space-y-2">
+                            <li>✓ Data-driven strategies</li>
+                            <li>✓ Regular performance reports</li>
+                            <li>✓ Transparent methodology</li>
+                            <li>✓ Continuous optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Marketing Automation Service -->
+            <div class="mb-16 service-card p-8 rounded-lg border hover:shadow-xl">
+                <h2 class="text-3xl font-bold mb-6">Marketing Automation</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="mb-4">Streamline your marketing efforts and improve efficiency with our cutting-edge automation solutions.</p>
+                        <ul class="list-disc list-inside space-y-2 mb-4">
+                            <li>Email Marketing Automation</li>
+                            <li>Lead Scoring and Nurturing</li>
+                            <li>Customer Journey Mapping</li>
+                            <li>Social Media Automation</li>
+                            <li>Campaign Analytics and Reporting</li>
+                            <li>CRM Integration</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-4">Benefits of Automation</h3>
+                        <ul class="space-y-2">
+                            <li>✓ Increased efficiency</li>
+                            <li>✓ Better lead qualification</li>
+                            <li>✓ Improved customer engagement</li>
+                            <li>✓ Time and cost savings</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Solutions Service -->
+            <div class="mb-16 service-card p-8 rounded-lg border hover:shadow-xl">
+                <h2 class="text-3xl font-bold mb-6">AI Solutions</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="mb-4">Harness the power of artificial intelligence to transform your business operations and customer experience.</p>
+                        <ul class="list-disc list-inside space-y-2 mb-4">
+                            <li>Chatbot Development</li>
+                            <li>Predictive Analytics</li>
+                            <li>Customer Behavior Analysis</li>
+                            <li>AI-Powered Recommendations</li>
+                            <li>Natural Language Processing</li>
+                            <li>Machine Learning Integration</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-4">AI Advantages</h3>
+                        <ul class="space-y-2">
+                            <li>✓ 24/7 customer support</li>
+                            <li>✓ Data-driven decisions</li>
+                            <li>✓ Personalized experiences</li>
+                            <li>✓ Scalable solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Website Development Service -->
+            <div class="service-card p-8 rounded-lg border hover:shadow-xl">
+                <h2 class="text-3xl font-bold mb-6">Website Development</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="mb-4">Create stunning, responsive websites that engage visitors and drive conversions.</p>
+                        <ul class="list-disc list-inside space-y-2 mb-4">
+                            <li>Custom Website Design</li>
+                            <li>E-commerce Development</li>
+                            <li>Responsive Mobile Design</li>
+                            <li>Website Maintenance</li>
+                            <li>Performance Optimization</li>
+                            <li>Security Implementation</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold mb-4">Development Features</h3>
+                        <ul class="space-y-2">
+                            <li>✓ Modern technologies</li>
+                            <li>✓ SEO-friendly structure</li>
+                            <li>✓ Fast loading speeds</li>
+                            <li>✓ Regular updates</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Ready to Transform Your Digital Presence?</h2>
+            <p class="text-xl mb-8">Let's discuss how we can help your business grow</p>
+            <a href="contact.html" class="bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-blue-100 transition duration-300">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">GoHigherOnline</h3>
+                    <p>Your partner in digital growth and success.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-blue-400">Home</a></li>
+                        <li><a href="services.html" class="hover:text-blue-400">Services</a></li>
+                        <li><a href="portfolio.html" class="hover:text-blue-400">Portfolio</a></li>
+                        <li><a href="about.html" class="hover:text-blue-400">About</a></li>
+                        <li><a href="contact.html" class="hover:text-blue-400">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li>SEO</li>
+                        <li>Marketing Automation</li>
+                        <li>AI Solutions</li>
+                        <li>Website Development</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li>Email: info@gohigheronline.com</li>
+                        <li>Phone: (+91) 9789581987</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>&copy; 2025 GoHigherOnline. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
