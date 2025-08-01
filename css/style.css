@@ -1,0 +1,98 @@
+/* Custom styles for GoHigherOnline */
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom transitions */
+.transition-all {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Custom hover effects */
+.hover-grow {
+    transition: transform 0.3s ease;
+}
+
+.hover-grow:hover {
+    transform: scale(1.05);
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1s ease-in;
+}
+
+/* Custom shadows */
+.custom-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Custom button styles */
+.custom-button {
+    background: linear-gradient(45deg, #2563eb, #1d4ed8);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+/* Service card styles */
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonial card styles */
+.testimonial-card {
+    background: linear-gradient(to bottom right, #ffffff, #f9fafb);
+    border: 1px solid #e5e7eb;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Newsletter form styles */
+.newsletter-input {
+    transition: box-shadow 0.3s ease;
+}
+
+.newsletter-input:focus {
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+/* Footer link hover effect */
+.footer-link {
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #60a5fa;
+}
